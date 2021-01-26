@@ -1,0 +1,40 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.HomePage{
+    height: 100%;
+    width: 40%;
+    border: 2px dashed black;
+    margin: 0 auto;
+    background-color: purple;
+}
+
+ul{
+    list-style: none;
+    margin-bottom: 20%;
+    align-items: center;
+}
+#buttons-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+button{
+    height: 35px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+li{
+    margin-bottom: 1%;
+    font-size: 30px;
+    width: 50%;
+    margin: 0 auto;
+}
+li:hover{
+    cursor: pointer;
+    color: aliceblue;
+}
